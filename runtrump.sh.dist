@@ -1,0 +1,11 @@
+#!/bin/bash
+
+source ./bin/activate
+
+export SLACK_TOKEN="xoxb-"
+export DB_HOST=""
+export DB_USER=""
+export DB_PASS=""
+export DB_DB=""
+
+python trump.py &
